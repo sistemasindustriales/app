@@ -1,878 +1,121 @@
-<html><head><base href="//games.softgames.com/matt-vs-math/">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta charset="UTF-8">
-	
-	<title>Matt Vs Math</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<link rel="apple-touch-icon" sizes="256x256" href="icon-256.png">
-	<meta name="HandheldFriendly" content="true">
-	<meta name="mobile-web-app-capable" content="yes">
-<meta name="game-slug" content="matt-vs-math">
-<meta name="splashscreen-game-url" content="http://d1bjj4kazoovdg.cloudfront.net/assets/games/matt-vs-math/teaser.jpg">
-<meta name="splashscreen-big-game-url" content="http://d1bjj4kazoovdg.cloudfront.net/assets/games/matt-vs-math/teaser@2x.jpg">
-<meta name="description" content="Matt vs. Math is a fun brainteaser game in which you have to solve seemingly simple equations that are designed around the numbers 1, 2 and 3. Three numbers, two operators and three results to choose from, this is all it takes to make really great game. Does this sound easy as 1, 2, 3 to you? Does it even sound too easy to you? Well, the first levels are easy indeed. But after a solving a few more equations and playing for some minutes, the game will quickly become a challenging and highly addictive brainteaser!
-Play Matt vs. Math now and solve more than 130 levels full fun and hard challenges!
 
-">
-<meta name="keywords" content="">
-<meta name="game-id" content="461">
-<meta name="supports-ad-play-button" content="false">
-	<link rel="shortcut icon" sizes="256x256" href="icon-256.png">
-	<link rel="icon" type="image/GIF" href="icon.ico">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feed The Grandma</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" type="text/css" href="https://cdn-factory.marketjs.com/en/feed-the-grandma/game.css">
+<script type="text/javascript" src="https://cdn-factory.marketjs.com/en/feed-the-grandma/game.js"></script>
 
-     <style type="text/css">
-		* {
-			padding: 0;
-			margin: 0;
-		}
-		body {
-			background-color: #a8d3f6;
-		         background-image: url('assets/sprites/bigbg.png');
-		         background-size:cover;
-		         background-position:center center;
-			color: #fff;
-			overflow: hidden;
-			-ms-touch-action: none;
-		}
-		canvas {
-			touch-action-delay: none;
-			touch-action: none;
-			-ms-touch-action: none;
-		}
-          #turn{
-			width:100%;
-			height:100%;
-			position:fixed;
-			top:0px;
-			left:0px;
-			background-color:white;
-			background-image:url('assets/sprites/playportrait.png');
-			background-repeat:no-repeat;
-			background-position: center center;
-			display:none;
-		}
-          #shadowbox{
-               position:fixed;               
-               -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-               -moz-box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-               box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
-               z-index:-30     
-          }
-	</style>
+<script type="text/javascript" src="https://s3.amazonaws.com/marketjs-us/en/patch/webaudio-context-patch.js"></script>
+</head>
+<body onload="setTimeout(window.scrollTo(0,1),1);">
+<div id="ajaxbar">
+<div id="anti-piracy">Hello, this version appears to be pirated. Click <a href="#" onclick="top.location.replace(self.location.href);">here</a> to play the original game. <br><br>Please support independent game developers and their hard work!</div>
+<div id="game"><canvas id="canvas"></canvas></div>
+<div id="orientate"><img src="https://cdn-factory.marketjs.com/en/feed-the-grandma/media/graphics/orientate/landscape.jpg" /></div>
+<div id="play" class="play" onclick=""><img src="https://cdn-factory.marketjs.com/en/feed-the-grandma/media/graphics/splash/mobile/cover-start.jpg" /></div>
 
-     	<style>#sg-loadscrn{
-    position:fixed; top:0;left:0;width:100%; height:100%; background-color:#fff; z-index:9999;
-}
+<div id="MobileAdInGamePreroll">
+<div id="MobileAdInGamePreroll-Box">
+<div id="MobileAdInGamePreroll-Box-Header"></div>
+<a id="MobileAdInGamePreroll-Box-Close" onclick="MobileAdInGamePreroll.Close();"></a>
+<div id="MobileAdInGamePreroll-Box-Body">
+<center>
 
-#sg-spinner{
-	position: absolute; width: 150px; height: 50px; top:50%; left:50%; margin-top:-25px; margin-left:-75px;
-	background-image: url('https://d3ktldhyer9fya.cloudfront.net/assets/sg-loader.gif');
-}
 
-#sg-spinner.no-img{
-    background: #ffffff;
-}
+<img src="https://cdn-factory.marketjs.com/generic.png">
 
-#sg-loadtext{
-    position:absolute;
-    font-family: sans-serif;
-    top:50%; left:50%;
-    width: 250px;
-    margin-left:-125px;
-    margin-top:-125px;
-    text-align:center;
-    line-height:150%;
-    font-size:16px;
-}</style>
-        
-        
-        
-	<meta name="locale" content="en"><meta name="publisher-id" content="5"><meta name="publisher-name" content="m.softgames.de"><meta name="publisher-splash" content=""><meta name="publisher-url" content=""><meta name="publisher-specific-queries" content="%22%22"><meta name="publisher-ga-codes" content=""><meta name="build-hash" content="#live:461a383cd996d2f458e6_1592573213453♂️✍️🏊&zwj;♀️"><meta name="country-code" content="US"><meta name="game-data" content="%7B%22gameDescription%22:%22Matt%20vs.%20Math%20is%20a%20fun%20brainteaser%20game%20in%20which%20you%20have%20to%20solve%20seemingly%20simple%20equations%20that%20are%20designed%20around%20the%20numbers%201,%202%20and%203.%20Three%20numbers,%20two%20operators%20and%20three%20results%20to%20choose%20from,%20this%20is%20all%20it%20takes%20to%20make%20really%20great%20game.%20Does%20this%20sound%20easy%20as%201,%202,%203%20to%20you?%20Does%20it%20even%20sound%20too%20easy%20to%20you?%20Well,%20the%20first%20levels%20are%20easy%20indeed.%20But%20after%20a%20solving%20a%20few%20more%20equations%20and%20playing%20for%20some%20minutes,%20the%20game%20will%20quickly%20become%20a%20challenging%20and%20highly%20addictive%20brainteaser!%5CnPlay%20Matt%20vs.%20Math%20now%20and%20solve%20more%20than%20130%20levels%20full%20fun%20and%20hard%20challenges!%5Cn%5Cn%22,%22gameKeywords%22:%22%22,%22gameLanguages%22:%5B%22Nederlands%22,%22T%C3%BCrk%C3%A7e%22,%22deutsch%22,%22english%22,%22espa%C3%B1ol%22,%22fran%C3%A7ais%22,%22italiano%22,%22polski%22,%22portugu%C3%AAs%22,%22%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D1%8F%D0%B7%D1%8B%D0%BA%22%5D%7D"><meta name="using-fast-preroll-flow" content="true"><link rel="manifest" href="https://games.softgames.com/matt-vs-math/manifest-5.json"><link rel="apple-touch-icon" href="https://games.softgames.com/matt-vs-math/apple-touch-icon.png"><meta name="theme-color" content="#317EFB"><style type="text/css">#pr-backdrop-container {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: white;
-  z-index: 1999999975;
-  top: 0;
-  left: 0;
-}
-#pr-backdrop-container #pr-teaser-container {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  filter: blur(25px);
-  -webkit-filter: blur(25px);
-  background-position: center;
-  opacity: 0.7;
-}
-#pr-backdrop-container #pr-center-teaser-container {
-  position: fixed;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-}
-#pr-backdrop-container #pr-background-darkener {
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background-color: black;
-  opacity: 0.1;
-}
-#pr-backdrop-container #pr-content-container {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-#pr-backdrop-container #pr-content-container #pr-spinner {
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-}
-#pr-backdrop-container #pr-content-container #pr-cookie-info-container {
-  position: fixed;
-  bottom: 0;
-  color: white;
-  padding: 20px;
-  font-family: sans-serif;
-  font-size: 1rem;
-}
-#pr-backdrop-container #pr-content-container #pr-cookie-info-container #pr-cookie-info {
-  margin: 20px;
-}
-#pr-backdrop-container #pr-content-container #pr-cookie-info-container #pr-cookie-button {
-  background-color: #306afd;
-  margin: 20px;
-  height: 39px;
-  border-radius: 20px;
-  text-align: center;
-  line-height: 39px;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-#pr-backdrop-container #pr-content-container #pr-cookie-info-container #pr-cookie-button:hover {
-  background-color: #2959fd;
-}
-#pr-backdrop-container #pr-ad-container {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  background-color: black;
-}
-#pr-backdrop-container #pr-ad-container #pr-ad-container-video-node {
-  opacity: 1 !important;
-}
-#pr-backdrop-container #pr-ad-container .sg-ima-mute-button {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  display: block;
-  color: white;
-  /*border-radius: 50%;*/
-  cursor: pointer;
-  /*background: white;*/
-}
-#pr-backdrop-container #pr-blocked-container {
-  position: fixed;
-  width: 350px;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  font-family: sans-serif;
-  background: rgba(255, 255, 255, 0.85);
-  color: red;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  padding: 20px;
-}
-#pr-backdrop-container #pr-blocked-container #pr-blocked-title {
-  font-size: 1.7rem;
-  padding-bottom: 20px;
-}
-#pr-backdrop-container #pr-blocked-container #pr-blocked-text {
-  font-size: 1.3rem;
-}
-#pr-backdrop-container #pr-ad-play-button-container {
-  cursor: pointer;
-  width: 126px;
-  height: 88px;
-  position: fixed;
-  top: calc(50% - 44px);
-  left: calc(50% - 63px);
-}
-#pr-backdrop-container #pr-ad-play-button-container #pr-ad-play-button {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  width: 100%;
-  height: 100%;
-}
-#pr-backdrop-container #pr-ad-play-button-container #pr-ad-play-button-triangle {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 25px 0 25px 43.3px;
-  border-color: transparent transparent transparent white;
-  position: absolute;
-  top: 20px;
-  left: 51px;
-}
-#pr-backdrop-container #pr-ad-play-button-container #pr-ad-play-button-background {
-  position: absolute;
-  width: 125px;
-  height: 88px;
-  color: white;
-  background-color: #64D032;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  border: 4px solid #42BA1D;
-  top: 0;
-  left: 0;
-  z-index: -2;
-}
-#pr-backdrop-container #pr-ad-play-button-container #pr-ad-play-button-overlay {
-  position: absolute;
-  width: 125px;
-  height: 88px;
-  background: -moz-linear-gradient(top, rgba(30, 240, 17, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(30, 240, 17, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(30, 240, 17, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#401ef011", endColorstr="#40000000", GradientType=0);
-  /* IE6-9 */
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  border: 4px solid #42BA1D;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
+</center>
+</div>
+<div id='MobileAdInGamePreroll-Box-Footer'></div>
+</div>
+</div>
 
-#branding-link {
-  z-index: 2147483648;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 22vw;
-}
-#branding-link img {
-  width: 100%;
-}
+<div id="MobileAdInGamePreroll2">
+<div id="MobileAdInGamePreroll2-Box">
+<div id="MobileAdInGamePreroll2-Box-Header"></div>
+<a id="MobileAdInGamePreroll2-Box-Close" onclick="MobileAdInGamePreroll.Close();"></a>
+<div id="MobileAdInGamePreroll2-Box-Body">
+<center>
 
-#pr-fs-clickable-area {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 2147483649;
-}
+</center>
+</div>
+<div id='MobileAdInGamePreroll2-Box-Footer'></div>
+</div>
+</div>
 
-#sg-game-icon {
-  position: fixed;
-  width: 33vh;
-  height: 33vh;
-  top: calc(50% - 16.5vh);
-  left: calc(50% - 16.5vh);
-  z-index: 2147483648;
-}
+<div id="MobileAdInGamePreroll3">
+<div id="MobileAdInGamePreroll3-Box">
+<div id="MobileAdInGamePreroll3-Box-Header"></div>
+<a id="MobileAdInGamePreroll3-Box-Close" onclick="MobileAdInGamePreroll.Close();"></a>
+<div id="MobileAdInGamePreroll3-Box-Body">
+<center>
 
-#sg-play-button-container {
-  width: 44vh;
-  height: 11vh;
-  position: fixed;
-  display: block;
-  max-width: 100% !important;
-  z-index: 2147483648;
-  top: calc(50% + 27.5vh);
-  left: calc(50% - 22vh);
-  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 5px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  margin: 0;
-  min-width: 44vh;
-  min-height: 11vh;
-}
-#sg-play-button-container #sg-play-button-mid-container {
-  height: 100%;
-  min-width: 1px;
-  min-height: 1px;
-  margin-left: 0;
-  float: none;
-  clear: both;
-  text-align: right;
-  -moz-box-shadow: inset 0px -3px 3px 2px #6190f1;
-  -webkit-box-shadow: inset 0px -3px 3px 2px #6190f1;
-  box-shadow: inset 0px -3px 3px 2px #6190f1;
-  border-bottom: 2px solid #407ffe;
-  background-color: #407ffe;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-}
-#sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  text-decoration: none;
-  font-size: 46px;
-  text-align: left;
-  line-height: 9vh;
-  font-weight: 700;
-  padding: 1vh 0vh 1vh 19vh;
-  float: left;
-}
-#sg-play-button-container #sg-play-button-mid-container #sg-play-button #sg-button-controller {
-  position: absolute;
-  left: 3vh;
-  top: 2vh;
-  height: 6.5vh;
-}
+</center>
+</div>
+<div id='MobileAdInGamePreroll3-Box-Footer'></div>
+</div>
+</div>
+<div id="MobileAdInGameHeader">
 
-.hidden-el {
-  display: none !important;
-}
+</div>
+<div id="MobileAdInGameHeader2">
 
-@-webkit-keyframes pulsate {
-  0% {
-    -webkit-transform: scale(1, 1);
-  }
-  50% {
-    -webkit-transform: scale(1.1, 1.1);
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-  }
-}
-@-moz-keyframes pulsate {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.1, 1.1);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
-@-o-keyframes pulsate {
-  0% {
-    -webkit-transform: scale(1, 1);
-  }
-  50% {
-    -webkit-transform: scale(1.1, 1.1);
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-  }
-}
-@keyframes pulsate {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(1.1, 1.1);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
-.pulsating {
-  -moz-animation: pulsate 1500ms infinite;
-  -webkit-animation: pulsate 1500ms infinite;
-  -o-animation: pulsate 1500ms infinite;
-  animation: pulsate 1500ms infinite;
-}
+</div>
+<div id="MobileAdInGameHeader3">
 
-@media only screen and (max-height: 1068px) {
-  #sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-    font-size: 37px;
-  }
-}
-@media only screen and (max-height: 904px) {
-  #sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-    font-size: 32px;
-  }
-}
-@media only screen and (max-height: 766px) {
-  #sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-    font-size: 26px;
-  }
-}
-@media only screen and (max-height: 644px) {
-  #sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-    font-size: 21px;
-  }
-}
-@media only screen and (max-height: 518px) {
-  #sg-play-button-container {
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-  }
+</div>
+<div id="MobileAdInGameFooter">
 
-  #sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-    font-size: 16px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-  }
-}
-@media only screen and (max-height: 380px) {
-  #sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-    font-size: 12px;
-  }
-}
-@media only screen and (max-height: 297px) {
-  #sg-play-button-container {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-  }
+</div>
+<div id="MobileAdInGameFooter2">
 
-  #sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-    font-size: 9px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-  }
-}
-@media only screen and (max-height: 218px) {
-  #sg-play-button-container {
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-  }
+</div>
+<div id="MobileAdInGameFooter3">
 
-  #sg-play-button-container #sg-play-button-mid-container #sg-play-button {
-    font-size: 7px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-  }
-}</style><style type="text/css">@charset "UTF-8";
-#yahoo-splash-container {
-  z-index: 2147483648;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  background-color: #fff;
-  transition: opacity 1000ms ease-in-out;
-}
+</div>
+<div id="MobileAdInGameEnd">
+<div id="MobileAdInGameEnd-Box">
+<div id="MobileAdInGameEnd-Box-Header"></div>
+<a id="MobileAdInGameEnd-Box-Close" onclick="MobileAdInGameEnd.Close();"></a>
+<div id="MobileAdInGameEnd-Box-Body">
+<center>
 
-#yahoo-splash {
-  position: relative;
-  display: block;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-}
+</center>
+</div>
+<div id='MobileAdInGameEnd-Box-Footer'></div>
+</div>
+</div>
 
-#yahoo-splash-container.splash-me {
-  opacity: 1;
-}
+<div id="MobileAdInGameEnd2">
+<div id="MobileAdInGameEnd2-Box">
+<div id="MobileAdInGameEnd2-Box-Header"></div>
+<a id="MobileAdInGameEnd2-Box-Close" onclick="MobileAdInGameEnd.Close();"></a>
+<div id="MobileAdInGameEnd2-Box-Body">
+<center>
 
-#splash-screen-softgames-logo {
-  width: 70%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
+</center>
+</div>
+<div id='MobileAdInGameEnd2-Box-Footer'></div>
+</div>
+</div>
 
-#splash-screen-yahoo-logo {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  width: 35%;
-}
+<div id="MobileAdInGameEnd3">
+<div id="MobileAdInGameEnd3-Box">
+<div id="MobileAdInGameEnd3-Box-Header"></div>
+<a id="MobileAdInGameEnd3-Box-Close" onclick="MobileAdInGameEnd.Close();"></a>
+<div id="MobileAdInGameEnd3-Box-Body">
+<center>
 
-#splash-text {
-  position: absolute;
-  bottom: 1rem;
-  color: #333333;
-  text-align: center;
-  padding: 0 20px;
-  width: calc(100% - 40px);
-  font-size: 10pt;
-  font-family: "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
+</center>
+</div>
+<div id='MobileAdInGameEnd3-Box-Footer'></div>
+</div>
+</div>
 
-@media (orientation: landscape) {
-  br {
-    display: none;
-  }
-
-  #splash-screen-yahoo-logo {
-    width: 20%;
-  }
-
-  #splash-screen-softgames-logo {
-    width: 45%;
-  }
-}
-@media screen and (max-width: 410px) {
-  #splash-text {
-    font-size: 8pt;
-  }
-}
-@media screen and (max-width: 335px) {
-  #splash-text {
-    font-size: 6pt;
-  }
-}
-@media screen and (max-width: 265px) {
-  #splash-text {
-    font-size: 4pt;
-  }
-}
-@media (orientation: landscape) and (max-width: 680px) {
-  #splash-text {
-    font-size: 8pt;
-  }
-}
-@media (orientation: landscape) and (max-width: 565px) {
-  #splash-text {
-    font-size: 6pt;
-  }
-}
-@media (orientation: landscape) and (max-width: 425px) {
-  #splash-text {
-    font-size: 4pt;
-  }
-}</style><script async="" type="text/javascript" src="https://games.softgames.com/assets/advertisement.js"></script><script async="" type="text/javascript" src="https://games.softgames.com/assets/showads.js"></script><script async="" type="text/javascript" src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script><script src="softgames_game.js"></script><style type="text/css">#timer-countdown-container {
-  position: fixed;
-  width: 150px;
-  background: #000;
-  bottom: 20px;
-  right: -172px;
-  -webkit-border-bottom-left-radius: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  border-bottom-left-radius: 10px;
-  -webkit-border-top-left-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  border-top-left-radius: 10px;
-  color: white;
-  font-size: 12px;
-  padding: 10px;
-  text-align: center;
-  height: 30px;
-  line-height: 30px;
-  border: 1px solid white;
-  font-family: oswald, arial, sans-serif;
-}
-
-.move-in {
-  animation-iteration-count: 1;
-  -webkit-animation: move-in 1s forwards;
-  -moz-animation: move-in 1s forwards;
-  -o-animation: move-in 1s forwards;
-  animation: move-in 1s forwards;
-}
-
-.move-out {
-  animation-iteration-count: 1;
-  -webkit-animation: move-out 1s forwards;
-  -moz-animation: move-out 1s forwards;
-  -o-animation: move-out 1s forwards;
-  animation: move-out 1s forwards;
-}
-
-@keyframes move-in {
-  from {
-    right: -172px;
-  }
-  to {
-    right: -1px;
-  }
-}
-@keyframes move-out {
-  from {
-    right: -1px;
-  }
-  to {
-    right: -172px;
-  }
-}</style><style type="text/css">.sg-backdrop {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1001;
-  background: black;
-  opacity: 0.5; }
-
-.sg-cross-promo-modal {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1002;
-  margin: 30px auto; }
-  .sg-cross-promo-modal * {
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-    text-align: center; }
-  .sg-cross-promo-modal.aeria-more-games {
-    background: white;
-    padding: 10px 0;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px; }
-    .sg-cross-promo-modal.aeria-more-games .aeria-frame {
-      width: 100%;
-      height: 100%;
-      border: none; }
-    .sg-cross-promo-modal.aeria-more-games .close-button {
-      display: block;
-      position: absolute;
-      border-radius: 16px;
-      width: 16px;
-      height: 16px;
-      background-color: #000000;
-      color: #fff;
-      text-align: center;
-      left: .5rem;
-      right: .5rem;
-      top: .5rem;
-      z-index: 2000;
-      opacity: 1;
-      text-shadow: 1px 1px #000;
-      box-shadow: 1px 1px grey;
-      line-height: 14px;
-      border: 1px solid white;
-      cursor: pointer;
-      font-size: 10px; }
-
-.more-games-cross-promo-modal-content {
-  width: 100%;
-  max-width: 90vh;
-  background-color: #EF821F;
-  padding-bottom: 5px;
-  overflow: auto;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  margin: auto; }
-  .more-games-cross-promo-modal-content .title {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 26px;
-    position: relative; }
-    .more-games-cross-promo-modal-content .title .more-games-cross-promo-close-button {
-      position: absolute;
-      right: 10px;
-      font-size: 30px;
-      top: 10px;
-      cursor: pointer;
-      font-family: 'fontAwesome'; }
-  .more-games-cross-promo-modal-content .promos {
-    width: 98%;
-    margin: auto;
-    background-color: #DCDCD3;
-    border-top: 4px solid #BBBBB4;
-    -webkit-border-bottom-left-radius: 10px;
-    -moz-border-radius-bottomleft: 10px;
-    border-bottom-left-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius-bottomright: 10px;
-    border-bottom-right-radius: 10px;
-    cursor: pointer;
-    overflow: auto; }
-    .more-games-cross-promo-modal-content .promos .promo-container {
-      float: left;
-      padding: 3%;
-      width: 50%; }
-      .more-games-cross-promo-modal-content .promos .promo-container .promo-image-container {
-        position: relative; }
-      .more-games-cross-promo-modal-content .promos .promo-container .promo-teaser {
-        max-width: 215px;
-        max-height: 130px;
-        width: 100%;
-        border: 1px solid white;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        border-radius: 10px;
-        -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75); }
-      .more-games-cross-promo-modal-content .promos .promo-container .promo-icon {
-        max-width: 30%;
-        max-height: 50%;
-        display: block;
-        width: auto;
-        height: auto;
-        position: absolute;
-        bottom: 9%;
-        left: 5%;
-        border: 2px solid white;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        border-radius: 10px; }
-      .more-games-cross-promo-modal-content .promos .promo-container .promo-play-button {
-        margin-top: 10px;
-        font-weight: bold;
-        background: #00CA99;
-        background-image: -webkit-linear-gradient(top, #00CA99, #009C99);
-        background-image: -moz-linear-gradient(top, #00CA99, #009C99);
-        background-image: -ms-linear-gradient(top, #00CA99, #009C99);
-        background-image: -o-linear-gradient(top, #00CA99, #009C99);
-        background-image: linear-gradient(to bottom, #00CA99, #009C99);
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
-        font-family: Arial;
-        color: #ffffff;
-        font-size: 17px;
-        padding: 2% 0;
-        border: solid #009999 1px;
-        text-decoration: none;
-        -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75); }
-      .more-games-cross-promo-modal-content .promos .promo-container .promo-play-button:hover {
-        background: #009C99;
-        background-image: -webkit-linear-gradient(top, #009C99, #00CA99);
-        background-image: -moz-linear-gradient(top, #009C99, #00CA99);
-        background-image: -ms-linear-gradient(top, #009C99, #00CA99);
-        background-image: -o-linear-gradient(top, #009C99, #00CA99);
-        background-image: linear-gradient(to bottom, #009C99, #00CA99);
-        text-decoration: none; }
-</style><style type="text/css">.button-image:hover {
-  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px; }
-
-.more-games-cross-promo-button {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 10%;
-  left: 15px;
-  z-index: 1000; }
-  .more-games-cross-promo-button .button-image {
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-    cursor: pointer;
-    -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.75); }
-  .more-games-cross-promo-button .arrow-down {
-    margin: 7px 0; }
-
-.arrow-container {
-  position: absolute;
-  width: 50px;
-  height: 150px; }
-  .arrow-container .arrow-up,
-  .arrow-container .arrow-down {
-    width: 100%;
-    height: 33%;
-    color: white;
-    font-size: 28px;
-    padding-left: 13px;
-    margin: 9px 0;
-    opacity: 0;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black; }
-  .arrow-container .arrow-down {
-    margin-top: 20px; }
-  .arrow-container .arrow-up {
-    margin-top: 25px; }
-
-.preload {
-  display: none; }
-
-.nudge {
-  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px; }
-
-@-webkit-keyframes shake {
-  10%, 90% {
-    -webkit-transform: translate3d(-1px, 0, 0); }
-  20%, 80% {
-    -webkit-transform: translate3d(2px, 0, 0); }
-  30%, 50%, 70% {
-    -webkit-transform: translate3d(-4px, 0, 0); }
-  40%, 60% {
-    -webkit-transform: translate3d(4px, 0, 0); } }
-
-@-moz-keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0); }
-  20%, 80% {
-    transform: translate3d(2px, 0, 0); }
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0); }
-  40%, 60% {
-    transform: translate3d(4px, 0, 0); } }
-
-@-o-keyframes shake {
-  10%, 90% {
-    -webkit-transform: translate3d(-1px, 0, 0); }
-  20%, 80% {
-    -webkit-transform: translate3d(2px, 0, 0); }
-  30%, 50%, 70% {
-    -webkit-transform: translate3d(-4px, 0, 0); }
-  40%, 60% {
-    -webkit-transform: translate3d(4px, 0, 0); } }
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0); }
-  20%, 80% {
-    transform: translate3d(2px, 0, 0); }
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0); }
-  40%, 60% {
-    transform: translate3d(4px, 0, 0); } }
-</style><link href="//dop3jnx8my3ym.cloudfront.net/fontawesome/4.5.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,print"><script src="//dop3jnx8my3ym.cloudfront.net/jquery-ui.min.js" async="" type="text/javascript"></script><script src="//dop3jnx8my3ym.cloudfront.net/jquery.ui.touch-punch.min.js" async="" type="text/javascript"></script><script type="text/javascript" src="//hb.vntsm.com/v3/live/ad-manager.min.js" data-site-id="5c361c2246e0fb00018e7e53" data-mode="scan" disabledpartners="4217"></script></head>
-	<body>
-          <div id="turn" style="display: none;"></div>
-          
-	
-
-<script type="text/javascript">
-            window.gameLangs = ['en', 'de', 'es', 'fr', 'it', 'pt', 'ru', 'tr', 'nl', 'pl'];
-            window.gameJS = ['softgames_game.js'];
-            window.gameOnLoadScript = "initialize();";
-        </script><script type="text/javascript" id="sg-sdk" src="https://embedder.softgames.de/sg-sdk/sg-sdk.5.6.6.js"></script><script type="text/javascript" src="https://games.softgames.com/modules/p2-module-manager-client.js"></script><script type="text/javascript" src="https://games.softgames.com/modules/preroll-client.js"></script><div id="pr-backdrop-container" class="hidden-el"><div id="pr-teaser-container" style="background-image: url(&quot;https://d1bjj4kazoovdg.cloudfront.net/assets/games/matt-vs-math/icon.jpg&quot;);"></div><div id="pr-content-container"><img id="pr-spinner" src="https://d1bjj4kazoovdg.cloudfront.net/assets/fancy-loader.svg"></div></div><a href="https://www.softgames.de/privacy/" target="_blank" id="branding-link" class="hidden-el"><img src="https://d2d9ibws6ui556.cloudfront.net/assets/img/SOFTGAMES_LOGO.jpg" class="branding-image"></a><canvas width="960" height="960" style="display: block; touch-action: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 969px; height: 969px; cursor: inherit; margin-left: 476px; margin-right: -475px; margin-top: 0px;"></canvas><div class="more-games-cross-promo-button ui-draggable ui-draggable-handle" style="left: 25%; width: 75px; height: 75px; top: 96px;"></div></body></html>
+</div>
+</body>
+</html>
