@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "title": "Stream 1080p",
+      "url": "https://astream-12-1.voxzer.org/stream/679bba570eda5059002c31aa/1080/index1.ts",
+      "type": "other",
+      "behaviorHints": {
+        "notWebReady": true,
+        "bingeGroup": "movie_tt1234567"
+      }
+    }
+  ]
+}

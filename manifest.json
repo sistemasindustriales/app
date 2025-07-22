@@ -1,22 +1,19 @@
 {
-  "id": "org.videolinks.stremio.addon",
+  "id": "com.github.yourusername.m3u8addon",
   "version": "1.0.0",
-  "name": "Video Links Player",
-  "description": "Play videos from direct links in Stremio",
-  "logo": "https://i.imgur.com/J8qQZ9G.png",
+  "name": "M3U8 GitHub Pages Addon",
+  "description": "Static M3U8 addon with filesystem-friendly naming",
   "resources": [
-    "stream"
+    {
+      "name": "stream",
+      "types": ["movie", "series"],
+      "idPrefixes": ["tt"],
+      "patterns": [
+        "/stream/movie/{imdb_id}.json",
+        "/stream/series/{imdb_id}_s{season}_e{episode}.json"
+      ]
+    }
   ],
-  "types": [
-    "movie",
-    "series"
-  ],
-  "catalogs": [],
-  "idPrefixes": [
-    "tt"
-  ],
-  "behaviorHints": {
-    "configurable": true,
-    "configurationRequired": false
-  }
+  "types": ["movie", "series"],
+  "catalogs": []
 }
