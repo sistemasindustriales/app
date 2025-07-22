@@ -1,28 +1,9 @@
 {
-  "id": "com.github.tuusuario.misseries",
+  "id": "org.stremio.example",
   "version": "1.0.0",
-  "name": "Mis Series",
-  "description": "Complemento para mis series",
-  "resources": [
-    "catalog",
-    {
-      "name": "meta",
-      "types": ["series"],
-      "idPrefixes": ["tt"]
-    },
-    {
-      "name": "stream",
-      "types": ["series"],
-      "idPatterns": ["^tt\\d+_\\d+_\\d+$"]
-    }
-  ],
+  "name": "Addon de Prueba",
+  "description": "Addon mínimo para testing",
+  "resources": ["stream"],
   "types": ["series"],
-  "catalogs": [
-    {
-      "type": "series",
-      "id": "seriesCatalog",
-      "name": "Mis Series"
-    }
-  ],
   "idPrefixes": ["tt"]
 }
