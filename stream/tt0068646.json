@@ -1,0 +1,13 @@
+{
+  "streams": [
+    {
+      "title": "Full HD Latino",
+      "url": "https://tuservidor.com/videos/suenodelibertad.ts",
+      "name": "Servidor 1",
+      "externalUrl": "https://tuservidor.com",
+      "behaviorHints": {
+        "notWebReady": false
+      }
+    }
+  ]
+}

@@ -1,10 +1,13 @@
 {
-  "id": "custom.m3u8.ts.stream",
+  "id": "stremio-addon-imdb",
   "version": "1.0.0",
-  "name": "Películas y Series .TS",
-  "description": "Complemento para reproducir URLs .ts usando IMDb",
+  "name": "Mi Addon IMDb",
+  "description": "Complemento que carga streams por IMDb ID",
   "resources": ["stream"],
   "types": ["movie", "series"],
+  "catalogs": [],
   "idPrefixes": ["tt"],
-  "catalogs": []
+  "behaviorHints": {
+    "configurationRequired": false
+  }
 }
