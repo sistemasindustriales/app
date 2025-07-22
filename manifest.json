@@ -2,21 +2,21 @@
   "id": "org.sistemasindustriales.m3u8addon",
   "version": "1.0.0",
   "name": "Stremio M3U8 Loader",
-  "description": "Addon estático que carga streams M3U8 para películas y series desde GitHub Pages",
+  "description": "Addon que sirve streams para películas y series desde GitHub Pages",
+  "types": ["movie", "series"],
   "resources": [
     {
       "name": "stream",
       "types": ["movie"],
       "idPrefixes": ["tt"],
-      "url": "https://sistemasindustriales.github.io/app/stremio/streams/movies/{id}.json"
+      "url": "https://sistemasindustriales.github.io/app/streams/movies/{id}.json"
     },
     {
       "name": "stream",
       "types": ["series"],
       "idPrefixes": ["tt"],
-      "url": "https://sistemasindustriales.github.io/app/stremio/streams/series/{id}.json"
+      "url": "https://sistemasindustriales.github.io/app/streams/series/{id}.json"
     }
   ],
-  "types": ["movie", "series"],
   "catalogs": []
 }
