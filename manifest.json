@@ -1,8 +1,8 @@
 {
   "id": "com.github.tuusuario.misvideos",
   "version": "1.0.0",
-  "name": "Mis Videos 25",
-  "description": "Mis archivos de video en GitHub",
+  "name": "Mis Videos en GitHub",
+  "description": "Streaming de mis archivos desde GitHub",
   "resources": ["stream"],
   "types": ["movie", "series"],
   "catalogs": [],
