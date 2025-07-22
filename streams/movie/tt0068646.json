@@ -2,7 +2,7 @@
   "streams": [
     {
       "title": "Stream 1080p",
-      "url": "https://astream-12-1.voxzer.org/stream/679bba570eda5059002c31aa/1080/index1.ts",
+      "url": "https://astream-12-1.voxzer.org/stream/679bba570eda5059002c31aa/1080/index.m3u8",
       "type": "other",
       "behaviorHints": {
         "notWebReady": true,
