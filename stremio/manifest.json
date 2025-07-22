@@ -1,8 +1,8 @@
 {
-  "id": "org.stremio.m3u8static",
-  "version": "1.0.0",
-  "name": "M3U8 Static Addon",
-  "description": "Addon simple para Stremio con archivos m3u8 usando GitHub Pages",
+  "id": "org.sistemasindustriales.m3u8addon",
+  "version": "2.0.0",
+  "name": " M3U8 Loader",
+  "description": "Addon estático que carga streams M3U8 por IMDb ID desde GitHub Pages",
   "resources": [
     {
       "name": "stream",
