@@ -1,0 +1,10 @@
+{
+  "streams": [
+    {
+      "title": "Temporada 1 - Episodio 1",
+      "url": "https://tuservidor.com/series/serie-temporada1-episodio1.ts",
+      "name": "TS Directo",
+      "isFree": true
+    }
+  ]
+}

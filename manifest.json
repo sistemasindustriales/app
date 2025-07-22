@@ -1,0 +1,10 @@
+{
+  "id": "custom.m3u8.ts.stream",
+  "version": "1.0.0",
+  "name": "Películas y Series .TS",
+  "description": "Complemento para reproducir URLs .ts usando IMDb",
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "idPrefixes": ["tt"],
+  "catalogs": []
+}
