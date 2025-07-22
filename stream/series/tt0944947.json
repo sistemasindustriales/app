@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "id": "tt0944947",
+    "type": "series",
+    "name": "Game of Thrones",
+    "videos": [
+      {
+        "season": 1,
+        "episode": 1,
+        "id": "tt0944947_1_1",
+        "title": "Winter Is Coming"
+      },
+      {
+        "season": 1,
+        "episode": 2,
+        "id": "tt0944947_1_2",
+        "title": "The Kingsroad"
+      }
+    ]
+  }
+}

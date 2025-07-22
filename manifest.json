@@ -1,19 +1,28 @@
 {
-  "id": "com.github.tuusuario.miscontenidos",
-  "version": "2.0.0",
-  "name": "Mis Películas y Serie2s",
-  "description": "Streams locales con metadatos automáticos de IMDb",
+  "id": "com.github.tuusuario.misseries",
+  "version": "1.0.0",
+  "name": "Mis Series",
+  "description": "Complemento para mis series",
   "resources": [
+    "catalog",
+    {
+      "name": "meta",
+      "types": ["series"],
+      "idPrefixes": ["tt"]
+    },
     {
       "name": "stream",
-      "types": ["movie", "series"],
-      "idPatterns": [
-        "^tt\\d+$",
-        "^tt\\d+_\\d+_\\d+$"
-      ]
+      "types": ["series"],
+      "idPatterns": ["^tt\\d+_\\d+_\\d+$"]
     }
   ],
-  "types": ["movie", "series"],
-  "idPrefixes": ["tt"],
-  "catalogs": []
+  "types": ["series"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "seriesCatalog",
+      "name": "Mis Series"
+    }
+  ],
+  "idPrefixes": ["tt"]
 }
