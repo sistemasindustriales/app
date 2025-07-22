@@ -1,0 +1,9 @@
+{
+  "streams": [
+    {
+      "name": "Servidor Principal",
+      "title": "1080p Latino",
+      "url": "https://tuservidor.com/videos/tt1234567/index.m3u8"
+    }
+  ]
+}
