@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<script>
-// Convierte ttID:season:episode a ttID_season_episode.json
-const path = window.location.pathname.split('/');
-if (path.length > 3) {
-  const id = path.pop().replace('.json', '').replace(/:/g, '_');
-  window.location.href = `${id}.json`;
-}
-</script>

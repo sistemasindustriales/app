@@ -1,9 +1,0 @@
-{
-  "streams": [
-    {
-      "title": "Versión 1080p",
-      "url": "https://tusuario.github.io/repo/videos/mi_pelicula.m3u8",
-      "type": "hls"
-    }
-  ]
-}
