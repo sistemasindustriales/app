@@ -1,0 +1,17 @@
+{
+  "tt0111161": {  // IMDb ID (ej: The Shawshank Redemption)
+    "streams": [
+      {
+        "title": "Canal 1 (M3U8)",
+        "url": "https://ejemplo.com/stream1.m3u8",
+        "behaviorHints": {
+          "notWebReady": true  // Para forzar el uso de VLC/MPV
+        }
+      },
+      {
+        "title": "Canal 2 (MP4)",
+        "url": "https://ejemplo.com/stream2.mp4"
+      }
+    ]
+  }
+}

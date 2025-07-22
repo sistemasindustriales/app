@@ -1,0 +1,10 @@
+{
+  "id": "org.m3u.stremio.addon",
+  "version": "1.0.0",
+  "name": "Listas M3U8",
+  "description": "Addon estático para listas M3U8",
+  "resources": ["stream"],
+  "types": ["movie", "series", "channel"],
+  "idPrefixes": ["tt", "hiwrld_"],
+  "catalogs": []
+}
