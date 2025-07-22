@@ -1,0 +1,22 @@
+{
+  "id": "org.videolinks.stremio.addon",
+  "version": "1.0.0",
+  "name": "Video Links Player",
+  "description": "Play videos from direct links in Stremio",
+  "logo": "https://i.imgur.com/J8qQZ9G.png",
+  "resources": [
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [],
+  "idPrefixes": [
+    "tt"
+  ],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}

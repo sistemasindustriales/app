@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Links Addon Configuration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #2f2f2f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1a1a1a;
+        }
+        .status {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Video Links Addon Configuration</h1>
+        <p>Enter the IMDb ID of the movie/series and the direct video links (one per line):</p>
+        
+        <div>
+            <label for="imdbId">IMDb ID (e.g., tt1234567):</label>
+            <input type="text" id="imdbId" placeholder="tt1234567" style="width: 100%; padding: 8px; margin-bottom: 15px;">
+        </div>
+        
+        <textarea id="videoLinks" placeholder="https://example.com/video1.mp4
+https://example.com/video2.mp4"></textarea>
+        
+        <button id="saveBtn">Save Configuration</button>
+        
+        <div id="statusMsg" class="status"></div>
+    </div>
+
+    <script src="configure.js"></script>
+</body>
+</html>
