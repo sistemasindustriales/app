@@ -1,0 +1,9 @@
+{
+  "streams": [
+    {
+      "title": "Winter Is Coming (HLS)",
+      "url": "https://tuserver.com/got_s1e1.m3u8",
+      "type": "hls"
+    }
+  ]
+}
