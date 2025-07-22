@@ -1,0 +1,10 @@
+{
+  "id": "org.yourusername.stremio-local",
+  "version": "1.0.0",
+  "name": "Tus Contenidos",
+  "description": "Complemento para tus archivos locales alojados en GitHub Pages",
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "idPrefixes": ["tt"]
+}

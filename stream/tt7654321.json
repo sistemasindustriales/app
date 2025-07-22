@@ -1,0 +1,14 @@
+{
+  "streams": [
+    {
+      "title": "Versión 1080p",
+      "url": "https://tusuario.github.io/turepo/videos/pelicula.m3u8",
+      "type": "hls"
+    },
+    {
+      "title": "Versión 720p",
+      "url": "https://tusuario.github.io/turepo/videos/pelicula_720.strm",
+      "type": "other"
+    }
+  ]
+}
