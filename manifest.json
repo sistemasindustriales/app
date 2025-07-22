@@ -7,7 +7,7 @@
     {
       "name": "catalog",
       "type": "series",
-      "id": "netflix-catalog"  // ID único para tu catálogo
+      "id": "netflix-catalog"
     },
     {
       "name": "meta",
