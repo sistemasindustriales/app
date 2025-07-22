@@ -1,0 +1,39 @@
+{
+  "id": "com.github.tuusuario.misvideos",
+  "version": "2.0.0",
+  "name": "PREMIUM 2",
+  "description": "Servicio de streaming premium con películas y series",
+  "resources": [
+    "stream",
+    "meta",
+    "catalog"
+  ],
+  "types": ["movie", "series"],
+  "idPrefixes": ["tt"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "movies",
+      "name": "Películas Premium",
+      "extra": [
+        {"name": "search", "isRequired": false},
+        {"name": "genre", "isRequired": false},
+        {"name": "skip", "isRequired": false}
+      ]
+    },
+    {
+      "type": "series",
+      "id": "series",
+      "name": "Series Premium",
+      "extra": [
+        {"name": "search", "isRequired": false},
+        {"name": "genre", "isRequired": false},
+        {"name": "skip", "isRequired": false}
+      ]
+    }
+  ],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
