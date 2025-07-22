@@ -1,9 +1,0 @@
-{
-  "id": "org.stremio.example",
-  "version": "1.0.0",
-  "name": "Addon de Prueba",
-  "description": "Addon mínimo para testing",
-  "resources": ["stream"],
-  "types": ["series"],
-  "idPrefixes": ["tt"]
-}
