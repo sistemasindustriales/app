@@ -7,7 +7,7 @@
     {
       "name": "stream",
       "types": ["series"],
-      "idPatterns": ["^tt\\d+:\\d+:\\d+$"], // Formato oficial con :
+      "idPatterns": ["^tt\\d+:\\d+:\\d+$"],
       "idPrefixes": ["tt"]
     }
   ],
