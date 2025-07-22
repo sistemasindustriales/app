@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "name": "Series Addon 00",
   "description": "Addon para series con streams personalizados",
-  "logo": "https://tuusuario.github.io/repo/logo.png", // Opcional
+  "logo": "https://tuusuario.github.io/repo/logo.png",
   "resources": [
     {
       "name": "stream",
       "types": ["series"],
-      "idPatterns": ["^tt\\d+_\\d+_\\d+$"] // Formato: ttID_S_E
+      "idPatterns": ["^tt\\d+_\\d+_\\d+$"]
     }
   ],
   "types": ["series"],
-  "catalogs": [], // Opcional si usas búsqueda directa
+  "catalogs": [],
   "idPrefixes": ["tt"],
   "behaviorHints": {
     "configurable": false
   },
-  "catalog": [] // Necesario aunque esté vacío
+  "catalog": []
 }
