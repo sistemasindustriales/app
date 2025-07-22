@@ -1,12 +1,15 @@
 {
   "id": "org.stremio.m3u8static",
   "version": "1.0.0",
-  "name": "M3U8 Simple Loader",
-  "description": "Carga películas y series M3U8 usando IMDb ID (estático)",
-  "resources": ["stream"],
-  "types": ["movie", "series"],
-  "idPrefixes": ["tt"],
-  "behaviorHints": {
-    "configurable": false
-  }
+  "name": "M3U8 Static Addon",
+  "description": "Addon simple para Stremio con archivos m3u8 usando GitHub Pages",
+  "resources": [
+    {
+      "name": "stream",
+      "types": ["movie", "series"],
+      "idPrefixes": ["tt"],
+      "url": "https://sistemasindustriales.github.io/app/stremio/streams/{id}.json"
+    }
+  ],
+  "types": ["movie", "series"]
 }
