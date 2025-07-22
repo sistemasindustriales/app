@@ -1,0 +1,10 @@
+{
+  "id": "com.github.tuusuario.misvideos",
+  "version": "1.0.0",
+  "name": "PREMIUM",
+  "description": "Servicio de streaming premium",
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "idPrefixes": ["tt"]
+}
