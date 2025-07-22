@@ -1,7 +1,7 @@
 {
   "id": "org.sistemasindustriales.m3u8addon",
-  "version": "1.0.0",
-  "name": "Stremio M3U8 Loader",
+  "version": "2.0.0",
+  "name": "PREMIUM M3U8 Loader",
   "description": "Addon que sirve streams para películas y series desde GitHub Pages",
   "types": ["movie", "series"],
   "resources": [
