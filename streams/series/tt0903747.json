@@ -1,0 +1,28 @@
+{
+  "streams": [
+    {
+      "title": "Breaking Bad - Temporada 1 Episodio 1",
+      "url": "https://guileless-alpaca-52f781.netlify.app/demo.m3u8",
+      "type": "hls",
+      "behaviorHints": {
+        "notWebReady": true,
+        "bingeGroup": "series_tt0959621_s1_e1"
+      },
+      "name": "Servidor Premium",
+      "season": 1,
+      "episode": 1
+    },
+    {
+      "title": "Breaking Bad - Temporada 1 Episodio 2",
+      "url": "https://guileless-alpaca-52f781.netlify.app/demo2.m3u8",
+      "type": "hls",
+      "behaviorHints": {
+        "notWebReady": true,
+        "bingeGroup": "series_tt0959621_s1_e2"
+      },
+      "name": "Servidor Premium",
+      "season": 1,
+      "episode": 2
+    }
+  ]
+}
