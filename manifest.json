@@ -23,7 +23,7 @@
     {
       "type": "series",
       "id": "netflix-catalog",
-      "name": "Series Netflix",  // Nombre que aparecerá en la UI
+      "name": "Series Netflix",
       "extra": [
         {
           "name": "genre",
