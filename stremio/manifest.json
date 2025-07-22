@@ -11,5 +11,6 @@
       "url": "https://sistemasindustriales.github.io/app/stremio/streams/{id}.json"
     }
   ],
-  "types": ["movie", "series"]
+  "types": ["movie", "series"],
+  "catalogs": []
 }
