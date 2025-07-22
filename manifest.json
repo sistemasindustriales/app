@@ -1,21 +1,26 @@
 {
-  "id": "com.github.tuusuario.seriesaddon",
+  "id": "com.github.tuusuario.misseries",
   "version": "1.0.0",
-  "name": "Series Addon 00",
-  "description": "Addon para series con streams personalizados",
-  "logo": "https://tuusuario.github.io/repo/logo.png",
+  "name": "Series Addon Pro50",
+  "description": "Addon para series con formato ttID:S:E en GitHub Pages",
   "resources": [
     {
       "name": "stream",
       "types": ["series"],
-      "idPatterns": ["^tt\\d+_\\d+_\\d+$"]
+      "idPatterns": ["^tt\\d+:\\d+:\\d+$"], // Formato oficial con :
+      "idPrefixes": ["tt"]
     }
   ],
   "types": ["series"],
   "catalogs": [],
   "idPrefixes": ["tt"],
   "behaviorHints": {
-    "configurable": false
-  },
-  "catalog": []
+    "configurable": false,
+    "proxyHeaders": {
+      "request": {
+        "Accept": "*/*",
+        "User-Agent": "Stremio/5.0"
+      }
+    }
+  }
 }
