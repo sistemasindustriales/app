@@ -1,19 +1,19 @@
 {
   "id": "com.github.tuusuario.miscontenidos",
-  "version": "2.0.0",
-  "name": "Mis Películas y Series2",
+  "version": "1.0.0",
+  "name": "Mis Películas y Series",
   "description": "Streams locales con metadatos automáticos de IMDb",
   "resources": [
     {
       "name": "stream",
       "types": ["movie", "series"],
       "idPatterns": [
-        "^tt\\d+$",          // Películas: tt1234567.json
-        "^tt\\d+_\\d+_\\d+$" // Series: tt0944947_1_1.json
+        "^tt\\d+$",
+        "^tt\\d+_\\d+_\\d+$"
       ]
     }
   ],
   "types": ["movie", "series"],
   "idPrefixes": ["tt"],
-  "catalogs": []  // Opcional: Si quieres listas personalizadas, añade esta parte
+  "catalogs": []
 }
