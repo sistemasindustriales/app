@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "tt1234567",
+    "type": "series",
+    "videos": [
+      {
+        "season": 1,
+        "episode": 1,
+        "id": "tt1234567_1_1",
+        "title": "Capítulo 1"
+      }
+    ]
+  }
+}

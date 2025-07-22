@@ -1,0 +1,43 @@
+{
+  "id": "com.github.tuusuario.netflixseries",
+  "version": "2.0.0",
+  "name": "Series Netflix 2",
+  "description": "Tus series de Netflix en Stremio",
+  "logo": "https://raw.githubusercontent.com/tuusuario/turepo/main/netflix-logo.png",
+  "resources": [
+    {
+      "name": "catalog",
+      "type": "series",
+      "id": "netflix-catalog"
+    },
+    {
+      "name": "stream",
+      "types": ["series"],
+      "idPatterns": ["^tt\\d+_\\d+_\\d+$"]
+    }
+  ],
+  "types": ["series"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "netflix-catalog",
+      "name": "NETFLIX",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": false
+        },
+        {
+          "name": "genre",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "idPrefixes": ["tt"],
+  "behaviorHints": {
+    "configurable": false,
+    "bingeGroup": "netflix-series"
+
+  }
+}
