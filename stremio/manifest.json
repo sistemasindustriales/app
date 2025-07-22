@@ -1,7 +1,7 @@
 {
   "id": "org.sistemasindustriales.m3u8addon",
   "version": "1.0.0",
-  "name": "Stremio M3U8 Loader",
+  "name": "Stremio M3U8 Loader2",
   "description": "Addon est\u00e1tico que carga streams M3U8 por IMDb ID desde GitHub Pages",
   "resources": [
     {
