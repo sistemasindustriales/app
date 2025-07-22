@@ -1,8 +1,8 @@
 {
-  "id": "org.yourusername.stremio-local",
+  "id": "com.github.tuusuario.misvideos",
   "version": "1.0.0",
-  "name": "Tus Contenidos",
-  "description": "Complemento para tus archivos locales alojados en GitHub Pages",
+  "name": "Mis Videos 25",
+  "description": "Mis archivos de video en GitHub",
   "resources": ["stream"],
   "types": ["movie", "series"],
   "catalogs": [],
