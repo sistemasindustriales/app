@@ -1,0 +1,14 @@
+{
+  "streams": [
+    {
+      "title": "1080p HLS",
+      "url": "https://tuserver.com/got_s1e1.m3u8",
+      "type": "hls"
+    },
+    {
+      "infoHash": "07a9de9750158471c3302e4e95edb1107f980fa6",
+      "fileIdx": 0,
+      "title": "Torrent 720p"
+    }
+  ]
+}
