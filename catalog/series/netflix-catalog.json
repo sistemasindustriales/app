@@ -1,0 +1,18 @@
+{
+  "metas": [
+    {
+      "id": "tt1234567",
+      "type": "series",
+      "name": "Stranger Things",
+      "poster": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+      "genres": ["Drama", "Sci-Fi"]
+    },
+    {
+      "id": "tt7654321",
+      "type": "series",
+      "name": "The Crown",
+      "poster": "https://image.tmdb.org/t/p/w500/jJZdKXgL4wI5Bvj8xAgGhHj3QeB.jpg",
+      "genres": ["Historia"]
+    }
+  ]
+}

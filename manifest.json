@@ -1,26 +1,36 @@
 {
-  "id": "com.github.tuusuario.misseries",
+  "id": "com.github.tuusuario.netflixseries",
   "version": "1.0.0",
-  "name": "Series Addon Pro51",
-  "description": "Addon para series con formato ttID:S:E en GitHub Pages",
+  "name": "Series Netflix",
+  "description": "Tus series de Netflix en Stremio",
   "resources": [
     {
+      "name": "catalog",
+      "type": "series",
+      "id": "netflix-catalog"  // ID único para tu catálogo
+    },
+    {
+      "name": "meta",
+      "type": "series"
+    },
+    {
       "name": "stream",
-      "types": ["series"],
-      "idPatterns": ["^tt\\d+:\\d+:\\d+$"],
-      "idPrefixes": ["tt"]
+      "type": "series"
     }
   ],
   "types": ["series"],
-  "catalogs": [],
-  "idPrefixes": ["tt"],
-  "behaviorHints": {
-    "configurable": false,
-    "proxyHeaders": {
-      "request": {
-        "Accept": "*/*",
-        "User-Agent": "Stremio/5.0"
-      }
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "netflix-catalog",
+      "name": "Series Netflix",  // Nombre que aparecerá en la UI
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false
+        }
+      ]
     }
-  }
+  ],
+  "idPrefixes": ["tt"]
 }
