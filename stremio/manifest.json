@@ -1,10 +1,12 @@
 {
-  "id": "org.m3u.stremio.addon",
+  "id": "org.stremio.m3u8static",
   "version": "1.0.0",
-  "name": "Listas M3U8",
-  "description": "Addon estático para listas M3U8",
+  "name": "M3U8 Simple Loader",
+  "description": "Carga películas y series M3U8 usando IMDb ID (estático)",
   "resources": ["stream"],
-  "types": ["movie", "series", "channel"],
-  "idPrefixes": ["tt", "hiwrld_"],
-  "catalogs": []
+  "types": ["movie", "series"],
+  "idPrefixes": ["tt"],
+  "behaviorHints": {
+    "configurable": false
+  }
 }
