@@ -1,0 +1,48 @@
+{
+  "id": "com.github.tuusuario.netflixseries",
+  "version": "1.0.0",
+  "name": "Series Netflix",
+  "description": "Acceso a tus series de Netflix en Stremio",
+  "logo": "https://raw.githubusercontent.com/tuusuario/turepo/main/logo.png",
+  "background": "https://raw.githubusercontent.com/tuusuario/turepo/main/background.jpg",
+  "resources": [
+    {
+      "name": "catalog",
+      "type": "series",
+      "id": "netflix-catalog"
+    },
+    {
+      "name": "meta",
+      "types": ["series"],
+      "idPrefixes": ["tt"]
+    },
+    {
+      "name": "stream",
+      "types": ["series"],
+      "idPatterns": ["^tt\\d+(_\\d+_\\d+)?$"]
+    }
+  ],
+  "types": ["series"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "netflix-catalog",
+      "name": "Series Netflix",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": false
+        },
+        {
+          "name": "genre",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "idPrefixes": ["tt"],
+  "behaviorHints": {
+    "configurable": false,
+    "bingeGroup": "netflix-series"
+  }
+}
