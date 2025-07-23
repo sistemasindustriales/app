@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "id": "tt1234567",
+    "type": "series",
+    "name": "Vacaciones en NY",
+    "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/x26MtUlwtWD26d0G0FXcppxCJio.jpg",
+    "description": "Una divertida serie sobre unas vacaciones inolvidables en Nueva York.",
+    "genres": ["Comedia"],
+    "releaseInfo": "2024"
+  },
+  "episodes": {
+    "1": [  // Temporada 1
+      {
+        "id": "tt1234567_s01e01",
+        "title": "Capítulo 1",
+        "overview": "El comienzo de las vacaciones en Nueva York.",
+        "released": "2024-01-01",
+        "season": 1,
+        "episode": 1,
+        "thumbnail": "https://media.themoviedb.org/t/p/w500_and_h282_face/s94NjfKkcSczZ1FembwmQZwsuwY.jpg"
+      }
+    ]
+  }
+}
