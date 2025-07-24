@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/stream/series/tmdb_*:*:*"
+  to = "/stream/series/tmdb_:splat1_:splat2_:splat3.json"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/json"

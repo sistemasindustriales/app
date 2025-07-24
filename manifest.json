@@ -1,0 +1,13 @@
+{
+  "id": "com.tustreams.tmdb",
+  "version": "1.0.0",
+  "name": "TMDB Streams Premium",
+  "description": "Streams de alta calidad para películas/series de TMDB",
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "idPrefixes": ["tmdb"],
+  "catalogs": [],
+  "behaviorHints": {
+    "configurable": false
+  }
+}
